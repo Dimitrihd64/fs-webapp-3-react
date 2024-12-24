@@ -10,8 +10,7 @@ const Header = () => {
                 <a className="text-xl font-bold mx-4" href="#">FsWebApp</a>
 
                 <div className="hidden md:flex space-x-4">
-                    <a className="text-gray-700 hover:text-gray-900" href="#">Home</a>
-                    <a className="text-gray-700 hover:text-gray-900" href="#">Login</a>
+                    <Link to="/"><a className="text-gray-700 hover:text-gray-900" href="#">Home</a> </Link>
                     <a className="text-gray-700 hover:text-gray-900" href="#">Pricing</a>
                     <a className="text-gray-400 cursor-not-allowed" href="#">Disabled</a>
                 </div>
