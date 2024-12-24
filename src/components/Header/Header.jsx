@@ -1,6 +1,5 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import LoginPage from "../LoginPage/LoginPage.jsx";
 
 
 const Header = () => {
@@ -23,7 +22,7 @@ const Header = () => {
     );
 };
 
-const LoginButton = () => {
+export const LoginButton = () => {
     return (
         <Link to="/login">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
